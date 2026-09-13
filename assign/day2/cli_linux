@@ -1,0 +1,5 @@
+mkdir -p ~/devops/leson1
+cd ~/devops/lesson1
+touch hello_world.txt
+nano hello_world.txt
+cat hello_world.txt
