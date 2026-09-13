@@ -1,9 +1,0 @@
-Tạo thư mục ~/devops/lesson1.
-
-Di chuyển vào thư mục vừa tạo.
-
-Tạo file hello_world.txt.
-
-Mở file hello_world.txt bằng trình soạn thảo nano và viết vài dòng nội dung vào file.
-
-Dùng lệnh cat để hiển thị nội dung file ra terminal.
