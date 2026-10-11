@@ -106,3 +106,5 @@ Luồng chạy của 1 request:
 1. Khách gọi API → Internet Gateway → ALB ở public subnet
 2. ALB chuyển vào order service ở private subnet app
 3. Order service lưu đơn hàng vào PostgreSQL
+4. Order service gọi payment service qua VPC Peering
+5. Payment service lưu giao dịch vào MySQL, nếu cần gọi cổng thanh toán bên ngoài thì đi ra qua NAT Gateway
